@@ -4,3 +4,6 @@ plugins:
 show_downloads: "false" #["true" or "false" (unquoted) to indicate whether to provide a download URL]
 title: Campus Virtual UPAV
 description: Bitácora de implementación del campus virtual Moodle
+
+#Incorporación de GitHub Flavored Markdown (GFM)
+markdown: GFM
