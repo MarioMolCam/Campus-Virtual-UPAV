@@ -1,0 +1,26 @@
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Entornos de desarrollo
+.vscode/
+.idea/
+
+# Archivos sensibles o locales
+.env
+*.key
+*.pem
+
+# Archivos generados automáticamente 
+node_modules/
+dist/
+build/
+
+# Archivos de Moodle
+moodledata/
+config.php
+
+# Otros
+*.log
+*.bak
+*.tmp
