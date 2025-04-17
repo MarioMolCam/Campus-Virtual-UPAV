@@ -9,15 +9,15 @@
 
 ## 🧭 Navegación rápida
 
-- [🎯 Objetivos del Proyecto](#-objetivos-del-proyecto)
-- [🔍 Alcance del Proyecto](#-alcance-del-proyecto)
-- [📅 Cronograma General](#-cronograma-general)
-- [🛠 Bitácora de Avances](#-bitácora-de-avances)
-- [🚧 Desafíos y Soluciones](#-desafíos-y-soluciones)
-- [📈 Resultados Parciales](#-resultados-parciales)
-- [🧠 Lecciones Aprendidas](#-lecciones-aprendidas)
-- [📎 Anexos](#-anexos)
-- [📬 Contacto](#-contacto)
+- [🎯 Objetivos del Proyecto](#objetivos-del-proyecto)
+- [🔍 Alcance del Proyecto](#alcance-del-proyecto)
+- [📅 Cronograma General](#cronograma-general)
+- [🛠 Bitácora de Avances](#bitácora-de-avances)
+- [🚧 Desafíos y Soluciones](#desafíos-y-soluciones)
+- [📈 Resultados Parciales](#resultados-parciales)
+- [🧠 Lecciones Aprendidas](#lecciones-aprendidas)
+- [📎 Anexos](#anexos)
+- [📬 Contacto](#contacto)
 
 ---
 
