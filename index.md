@@ -112,8 +112,6 @@ Diseñar, configurar e implementar un entorno virtual de aprendizaje estable, ac
 
 ---
 
----
-
 ## 📬 Contacto
 
 Si deseas conocer más sobre el proyecto, colaborar o brindar retroalimentación, puedes contactarme a través de los siguientes medios:
