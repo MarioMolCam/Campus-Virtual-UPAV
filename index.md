@@ -1,5 +1,8 @@
+# 🏫 Implementación del Campus Virtual UPAV
+![Estado](https://img.shields.io/badge/Estado-En%20curso-blue)
+![Moodle](https://img.shields.io/badge/Plataforma-Moodle%204.x-brightgreen)
+![UPAV](https://img.shields.io/badge/UPAV-Campus%20Virtual-purple)
 
-# 🏫 Proyecto: Implementación del Campus Virtual UPAV
 **Responsable:** Mario Molina Campos  
 **Rol:** Digital Solutions and EdTech Architect  
 **Inicio del Proyecto:** Marzo 2025  
@@ -7,21 +10,24 @@
 
 ---
 
-## 🧭 Navegación rápida
+<details>
+<summary>🧭 Navegación rápida</summary>
 
-- [🎯 Objetivos del Proyecto](#objetivos-del-proyecto)
-- [🔍 Alcance del Proyecto](#alcance-del-proyecto)
-- [📅 Cronograma General](#cronograma-general)
-- [🛠 Bitácora de Avances](#bitácora-de-avances)
-- [🚧 Desafíos y Soluciones](#desafíos-y-soluciones)
-- [📈 Resultados Parciales](#resultados-parciales)
-- [🧠 Lecciones Aprendidas](#lecciones-aprendidas)
-- [📎 Anexos](#anexos)
-- [📬 Contacto](#contacto)
+- [Objetivos del Proyecto](#objetivos-del-proyecto)  
+- [Alcance del Proyecto](#alcance-del-proyecto)  
+- [Cronograma General](#cronograma-general)  
+- [Bitácora de Avances](#bitácora-de-avances)  
+- [Desafíos y Soluciones](#desafíos-y-soluciones)  
+- [Resultados Parciales](#resultados-parciales)  
+- [Lecciones Aprendidas](#lecciones-aprendidas)  
+- [Anexos](#anexos)  
+- [Contacto](#contacto)
+
+</details>
 
 ---
 
-## 📌 Resumen Ejecutivo
+## 📌 Resumen
 
 Este documento describe el proceso de implementación y personalización del nuevo Campus Virtual de la Universidad Popular Autónoma de Veracruz, basado en la plataforma Moodle. El objetivo es centralizar la gestión académica virtual, optimizar la experiencia del usuario y fortalecer la estrategia de educación digital institucional.
 
@@ -51,75 +57,80 @@ Diseñar, configurar e implementar un entorno virtual de aprendizaje estable, ac
 
 **No incluye (por ahora):**
 - Desarrollo de plugins a medida
-- Integraciones con sistemas administrativos externos (SICE - Sistema Integral de Control Escolar)
+- Integraciones con sistemas administrativos externos (SICE)
 - Aplicaciones móviles personalizadas
 
 ---
 
 ## 📅 Cronograma General
 
-| Fase                                | Fecha estimada   | Estado         |
-|-------------------------------------|------------------|----------------|
-| Análisis de requerimientos          | Febrero 2025     | ✅ Completado |
-| Instalación y configuración         | Abril 2025       | ✅ Completado |
-| Personalización visual              | Abril 2025        | ✅ En proceso |
-| Evaluación y ajustes                | Mayo 2025       | ⏳ Pendiente |
-| Capacitación docente                | Junio 2025       | ⏳ Pendiente |
+| Fase                         | Fecha estimada   | Estado                       |
+|-----------------------------|------------------|------------------------------|
+| Análisis de requerimientos  | Febrero 2025     | ✅ Completado                |
+| Instalación y configuración | Abril 2025       | ✅ Completado                |
+| Personalización visual      | Abril 2025       | 🟡 En proceso                |
+| Evaluación y ajustes        | Mayo 2025        | ⏳ Pendiente                 |
+| Capacitación docente        | Junio 2025       | ⏳ Pendiente                 |
 
 ---
 
 ## 🛠 Bitácora de Avances
 
-| Fecha       | Actividad                                                     | Resultado                                                        | Observaciones                                      |
-|-------------|---------------------------------------------------------------|------------------------------------------------------------------|---------------------------------------------------|
-| 2025-04-03  | Recepción de credenciales SSH para acceso al VPS              | Acceso verificado y entorno preparado para configuración         | El VPS se destinó exclusivamente para Moodle       |
-| 2025-04-05  | Instalación de dependencias base                              | Servidor listo con Apache, PHP, MariaDB y extensiones necesarias | Ambiente funcional para ejecución de Moodle       |
-| 2025-04-06  | Instalación inicial de Moodle                                 | Archivos y base de datos configurados correctamente              | No operativo aún por fallo en `php.ini`            |
-| 2025-04-07  | Diagnóstico de error en configuración                         | Detectado conflicto en parámetros del archivo `php.ini`          | Actividades urgentes institucionales pausaron el proceso |
-| 2025-04-16  | Retoma del proceso de instalación                             | Error corregido y plataforma Moodle operativa                    | Acceso disponible desde navegador                  |
-| 2025-04-17  | Personalización visual e identidad institucional              | Aplicación de logotipo, colores UPAV y tema base                 | En curso: ajustes de contraste y navegación        |
+| Fecha       | Actividad                                            | Resultado                                                     | Observaciones                                       |
+|-------------|------------------------------------------------------|---------------------------------------------------------------|----------------------------------------------------|
+| 2025-04-03  | Recepción de credenciales SSH                        | Acceso verificado y entorno preparado para configuración      | El VPS se destinó exclusivamente para Moodle       |
+| 2025-04-05  | Instalación de dependencias base                     | Apache, PHP, MariaDB y extensiones instaladas correctamente   | Ambiente funcional para Moodle                     |
+| 2025-04-06  | Instalación inicial de Moodle                        | Archivos y base de datos configurados                         | No operativo aún por error en `php.ini`            |
+| 2025-04-07  | Diagnóstico del error                                | Ajustes en `php.ini` aplicados                                | Proceso pausado por actividades institucionales    |
+| 2025-04-16  | Retoma de instalación                                | Moodle operativo                                               | Acceso desde navegador verificado                  |
+| 2025-04-17  | Personalización visual e identidad institucional     | Aplicación de logotipo, colores y tema base                   | En curso: ajustes de contraste y navegación        |
 
 ---
 
 ## 🚧 Desafíos y Soluciones
 
-- **Desafío:** Capacitación docente con poco tiempo disponible.  
-  **Solución:** Microcápsulas en video + manual descargable o curso introductorio de capacitación en la misma plataforma + manual descargable.
+| Desafío                                          | Solución                                                                 |
+|--------------------------------------------------|--------------------------------------------------------------------------|
+| Capacitación docente con poco tiempo disponible | Microcápsulas en video + curso introductorio autogestivo + manual PDF   |
 
 ---
 
 ## 📈 Resultados Parciales
 
-- Plataforma en línea y funcional.
-- 1 cursos piloto cargados.
-- 0 docentes capacitados.
-- Manual básico de uso en proceso.
+📌 Plataforma en línea y funcional  
+📘 Curso piloto cargado  
+👥 0 docentes capacitados  
+📝 Manual básico en proceso
 
 ---
 
 ## 🧠 Lecciones Aprendidas
 
-- Involucrar al área académica desde las fases tempranas acelera la validación.
-- Documentar cada paso ayuda a replicar y justificar decisiones.
+> 🔍 Involucrar al área académica desde las fases tempranas acelera la validación.  
+> 🧾 Documentar cada paso ayuda a replicar y justificar decisiones.
 
 ---
 
 ## 📎 Anexos
 
-- [Manual rápido para Asesor (PDF)](enlace)
-- [Mapa de navegación institucional (PNG)](enlace) IDEA PENDIENTE DE VALIDACIÓN
-- [Repositorio de backups y configuraciones](enlace a GitHub)
+- [Manual rápido para Asesor (PDF)](enlace)  
+- [Mapa de navegación institucional (PNG)](enlace) *→ Pendiente de validación*  
+- [Repositorio de backups y configuraciones](enlace a GitHub)  
+
+> *Nota: Algunos recursos están pendientes de carga o validación.*
 
 ---
 
 ## 📬 Contacto
 
-Si deseas conocer más sobre el proyecto, colaborar o brindar retroalimentación, puedes contactarme a través de los siguientes medios:
+¿Tienes preguntas, sugerencias o quieres colaborar? Puedes contactarme aquí:
 
-- ✉️ **Correo Personal:** [mmolina.campos33@gmail.com](mailto:mmolina.campos33@gmail.com)
-- ✉️ **Correo:** [mario.molina@upav.edu.mx](mailto:mario.molina@upav.edu.mx)
-- 💼 **LinkedIn:** [Mario Molina Campos](https://www.linkedin.com/in/mariomolinacampos/)
-- 📍 **Ubicación:** Xalapa,Veracruz. México
+- ✉️ [mmolina.campos33@gmail.com](mailto:mmolina.campos33@gmail.com)  
+- ✉️ [mario.molina@upav.edu.mx](mailto:mario.molina@upav.edu.mx)  
+- 💼 [Mario Molina Campos en LinkedIn](https://www.linkedin.com/in/mariomolinacampos/)  
+- 📍 Xalapa, Veracruz, México  
 
+---
 
-> _“Una buena plataforma educativa no solo se ve bien, funciona bien: guía, acompaña y no estorba.”_ – Mario Molina C.
+<p align="center"><em>“Una buena plataforma educativa no solo se ve bien, funciona bien: guía, acompaña y no estorba.”</em><br>– Mario Molina C.</p>
+
