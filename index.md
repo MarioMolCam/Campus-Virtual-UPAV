@@ -19,8 +19,6 @@
 - [📎 Anexos](#-anexos)
 - [📬 Contacto](#-contacto)
 
-
-
 ---
 
 ## 📌 Resumen Ejecutivo
