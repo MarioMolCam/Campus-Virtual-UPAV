@@ -7,6 +7,22 @@
 
 ---
 
+## 🧭 Navegación rápida
+
+- [🎯 Objetivos del Proyecto](#-objetivos-del-proyecto)
+- [🔍 Alcance del Proyecto](#-alcance-del-proyecto)
+- [📅 Cronograma General](#-cronograma-general)
+- [🛠 Bitácora de Avances](#-bitácora-de-avances)
+- [🚧 Desafíos y Soluciones](#-desafíos-y-soluciones)
+- [📈 Resultados Parciales](#-resultados-parciales)
+- [🧠 Lecciones Aprendidas](#-lecciones-aprendidas)
+- [📎 Anexos](#-anexos)
+- [📬 Contacto](#-contacto)
+
+
+
+---
+
 ## 📌 Resumen Ejecutivo
 
 Este documento describe el proceso de implementación y personalización del nuevo Campus Virtual de la Universidad Popular Autónoma de Veracruz, basado en la plataforma Moodle. El objetivo es centralizar la gestión académica virtual, optimizar la experiencia del usuario y fortalecer la estrategia de educación digital institucional.
@@ -97,5 +113,17 @@ Diseñar, configurar e implementar un entorno virtual de aprendizaje estable, ac
 - [Repositorio de backups y configuraciones](enlace a GitHub)
 
 ---
+
+---
+
+## 📬 Contacto
+
+Si deseas conocer más sobre el proyecto, colaborar o brindar retroalimentación, puedes contactarme a través de los siguientes medios:
+
+- ✉️ **Correo Personal:** [mmolina.campos33@gmail.com](mailto:mmolina.campos33@gmail.com)
+- ✉️ **Correo:** [mario.molina@upav.edu.mx](mailto:mario.molina@upav.edu.mx)
+- 💼 **LinkedIn:** [Mario Molina Campos](https://www.linkedin.com/in/mariomolinacampos/)
+- 📍 **Ubicación:** Xalapa,Veracruz. México
+
 
 > _“Una buena plataforma educativa no solo se ve bien, funciona bien: guía, acompaña y no estorba.”_ – Mario Molina C.
